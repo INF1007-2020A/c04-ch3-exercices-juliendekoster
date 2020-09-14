@@ -50,5 +50,5 @@ def main() -> None:
 
 if __name__ == '__main__':
     main()
-
-print(square_root())
+Var = 
+print(square_root(Var))
