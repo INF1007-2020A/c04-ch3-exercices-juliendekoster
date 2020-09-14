@@ -1,13 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-Var1, Var2, Var3 = [1, 2, 3]
-Moyenne = '(Var1 + Var2 + Var3)/3'
-print(Moyenne)
+
 
 import math
 
 def square_root(a: float) -> float:
-    return math.sqrt(a)
+    Racine = math.sqrt(a)
+    return Racine
 
 
 def square(a: float) -> float:
