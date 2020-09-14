@@ -54,4 +54,4 @@ Var = 144
 Answer = (square_root(Var))
 print(Answer)
 
-Var1
+Var1, Var2, Var
