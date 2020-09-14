@@ -51,7 +51,7 @@ def main() -> None:
 if __name__ == '__main__':
     main()
 
-    
+insert math    
 Var = 144
 Answer = 'square_root(Var)'
 print(Answer)
