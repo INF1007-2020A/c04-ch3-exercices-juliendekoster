@@ -51,5 +51,5 @@ def main() -> None:
 if __name__ == '__main__':
     main()
 Var = 144
-Réponse = (square_root(Var))
-print(a)
+answer = (square_root(Var))
+print(answer)
