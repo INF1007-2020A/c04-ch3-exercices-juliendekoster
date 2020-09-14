@@ -1,4 +1,4 @@
-test_average (__main__.TestExercice) ... FAIL
+test_average (__main__.TestExercice) ... ok
 test_square (__main__.TestExercice) ... ok
 test_square_root (__main__.TestExercice) ... ERROR
 test_to_celsius (__main__.TestExercice) ... FAIL
@@ -22,21 +22,6 @@ Traceback (most recent call last):
     return square_root(a)
   [Previous line repeated 972 more times]
 RecursionError: maximum recursion depth exceeded
-
-======================================================================
-FAIL: test_average (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 50, in test_average
-    'Mauvais calcul de la moyenne'
-AssertionError: Lists differ: [16.0, 0.0, -2.6666666666666665] != [4.0, 0.0, -2.3333333333333335]
-
-First differing element 0:
-16.0
-4.0
-
-- [16.0, 0.0, -2.6666666666666665]
-+ [4.0, 0.0, -2.3333333333333335] : Mauvais calcul de la moyenne
 
 ======================================================================
 FAIL: test_to_celsius (__main__.TestExercice)
@@ -102,6 +87,6 @@ First differing element 0:
 + [-0.08668468618238503, 0.17598251810595048, 6.283490739798685, 6.9973449482748] : Mauvais calcul de degres -> radians
 
 ----------------------------------------------------------------------
-Ran 7 tests in 0.006s
+Ran 7 tests in 0.005s
 
-FAILED (failures=5, errors=1)
+FAILED (failures=4, errors=1)
