@@ -53,11 +53,3 @@ def main() -> None:
 if __name__ == '__main__':
     main()
 
-import math    
-Var = 144
-Answer = 'square_root(Var)'
-print(Answer)
-
-Var1, Var2, Var3 = [1, 2, 3]
-Moyenne = '(Var1 + Var2 + Var3)/3'
-print(Moyenne)
