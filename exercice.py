@@ -7,7 +7,7 @@ print(Moyenne)
 import math
 
 def square_root(a: float) -> float:
-    return math.square_root(a)
+    return math.sqrt(a)
 
 
 def square(a: float) -> float:
