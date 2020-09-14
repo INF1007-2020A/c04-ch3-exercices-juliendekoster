@@ -52,3 +52,4 @@ if __name__ == '__main__':
     main()
 Var = 144
 Réponse = (square_root(Var))
+print(a)
